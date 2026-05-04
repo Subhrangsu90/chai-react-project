@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+	html {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	body {
+		@apply m-0 min-h-screen bg-zinc-950 text-zinc-100;
+		font-family: ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+	}
+}
